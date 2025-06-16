@@ -1,0 +1,205 @@
+/* === VUCA Venture - Dark Purple Theme === */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root {
+  --bg-main: #1c1c2e;
+  --bg-card: #2a2a40;
+  --primary: #7f5af0;
+  --primary-dark: #5d3cd9;
+  --accent: #fcd34d;
+  --text-main: #ffffff;
+  --text-muted: #aaa;
+  --success: #4ade80;
+  --danger: #f87171;
+  --border: #444;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg-main);
+  color: var(--text-main);
+  margin: 0;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Titles */
+h1.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--accent);
+  text-align: center;
+}
+
+h2 {
+  color: var(--primary);
+}
+
+/* Layout Cards */
+.card {
+  background: var(--bg-card);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(127, 90, 240, 0.1);
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+/* Input & Buttons */
+input {
+  padding: 0.65rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #1e1e2d;
+  color: var(--text-main);
+  width: 220px;
+  margin-right: 0.5rem;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Primary Button */
+.primary {
+  background: var(--primary);
+  color: white;
+}
+
+.primary:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 0 12px var(--primary-dark);
+}
+
+/* Power-Ups */
+.power {
+  background: var(--accent);
+  color: #000;
+  font-weight: 600;
+  margin: 0.3rem;
+}
+
+.power:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px var(--accent);
+}
+
+/* Choices */
+.choices button {
+  display: block;
+  background: #383856;
+  color: white;
+  width: 100%;
+  margin: 0.5rem 0;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  transition: background 0.3s ease;
+}
+
+.choices button:hover {
+  background: #4b4b71;
+}
+
+/* Feedback Colors */
+.correct {
+  background: var(--success) !important;
+  color: #000 !important;
+}
+
+.incorrect {
+  background: var(--danger) !important;
+  color: #fff !important;
+}
+
+#feedback {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* Progress Bar */
+#progressOuter {
+  background: #333;
+  border-radius: 999px;
+  height: 14px;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+
+#progressInner {
+  height: 14px;
+  background: var(--primary);
+  width: 0%;
+  border-radius: 999px;
+  transition: width 0.4s ease;
+}
+
+/* Dashboard Table */
+table {
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background: var(--bg-card);
+  color: var(--text-main);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(127, 90, 240, 0.1);
+}
+
+th, td {
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+}
+
+thead {
+  background: #3b3b55;
+}
+
+.progressRow {
+  height: 14px;
+  background: #555;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progressInner {
+  height: 14px;
+  background: var(--primary);
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  input {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  table, th, td {
+    font-size: 0.9rem;
+  }
+}

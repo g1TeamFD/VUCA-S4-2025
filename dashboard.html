@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>VUCA Venture – Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 class="title">📊 Live Dashboard</h1>
+
+  <table id="scoreTable">
+    <thead><tr><th>Player</th><th style="width:55%">Progress</th><th>Score</th></tr></thead>
+    <tbody></tbody>
+  </table>
+  <button id="resetBtn" class="primary" style="margin-bottom:1rem;">🔄 Reset Game</button>
+
+  <!-- Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+
+  <!-- Logic -->
+  <script src="dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+[
+  {
+    "category": "Volatility",
+    "question": "Your main supplier shuts down overnight due to political unrest. What would you do?",
+    "options": [
+      { "text": "Activate backup suppliers immediately", "score": 200 },
+      { "text": "Wait to see if things improve", "score": 50 },
+      { "text": "Freeze all operations until further notice", "score": -20 }
+    ]
+  },
+  {
+    "category": "Uncertainty",
+    "question": "A tech startup disrupts your market, but their model is unclear. What do you do?",
+    "options": [
+      { "text": "Launch exploratory customer interviews", "score": 180 },
+      { "text": "React with immediate price cuts", "score": 40 },
+      { "text": "Ignore it for now", "score": -10 }
+    ]
+  },
+  {
+    "category": "Complexity",
+    "question": "Your business spans 5 regions with overlapping regulations. A new policy adds more confusion. What's your best move?",
+    "options": [
+      { "text": "Appoint a cross-functional task force to map impacts", "score": 200 },
+      { "text": "Let each region interpret it their way", "score": 80 },
+      { "text": "Pause decisions until legal clarity emerges", "score": 10 }
+    ]
+  },
+  {
+    "category": "Ambiguity",
+    "question": "You're asked to lead a digital transformation with no clear roadmap. What would you do first?",
+    "options": [
+      { "text": "Run pilot programs in 2 departments", "score": 180 },
+      { "text": "Request a perfect 3-year plan before starting", "score": 30 },
+      { "text": "Let IT department decide everything", "score": -10 }
+    ]
+  },
+  {
+    "category": "VUCA Classification",
+    "question": "Which VUCA element best describes: 'New competitors emerge weekly with unpredictable tactics'?",
+    "options": [
+      { "text": "Uncertainty", "score": 200 },
+      { "text": "Ambiguity", "score": 100 },
+      { "text": "Complexity", "score": 50 }
+    ]
+  },
+  {
+    "category": "VUCA Classification",
+    "question": "Which VUCA element best fits: 'Too many stakeholders with conflicting rules'?",
+    "options": [
+      { "text": "Complexity", "score": 200 },
+      { "text": "Volatility", "score": 60 },
+      { "text": "Uncertainty", "score": 80 }
+    ]
+  },
+  {
+    "category": "Leadership Scenario",
+    "question": "You’re the operations lead. Midway through product launch, regulations shift. What’s your move?",
+    "options": [
+      { "text": "Realign teams to adjust workflow immediately", "score": 180 },
+      { "text": "Stick to the original plan and hope for the best", "score": 30 },
+      { "text": "Blame legal and do nothing", "score": -20 }
+    ]
+  },
+  {
+    "category": "Volatility",
+    "question": "Oil prices suddenly rise 4x in 24 hours. What would your company do?",
+    "options": [
+      { "text": "Secure long-term contracts immediately", "score": 200 },
+      { "text": "Raise prices for customers", "score": 60 },
+      { "text": "Pause energy-heavy operations", "score": 30 }
+    ]
+  },
+  {
+    "category": "Ambiguity",
+    "question": "An innovation lab reports a ‘potential breakthrough’ with unknown impact. How do you lead?",
+    "options": [
+      { "text": "Host design thinking sprints to test uses", "score": 200 },
+      { "text": "Ignore until competitors validate it", "score": 50 },
+      { "text": "Cancel the project to avoid risk", "score": -30 }
+    ]
+  },
+  {
+    "category": "Uncertainty",
+    "question": "A global event disrupts customer behavior. What’s your best approach?",
+    "options": [
+      { "text": "Monitor data daily and shift campaigns accordingly", "score": 180 },
+      { "text": "Wait for a quarterly report before acting", "score": 40 },
+      { "text": "Stick to old campaigns", "score": -10 }
+    ]
+  },
+  {
+    "category": "Complexity",
+    "question": "Your product now requires 10 different certifications across countries. How do you respond?",
+    "options": [
+      { "text": "Build a centralized compliance team", "score": 180 },
+      { "text": "Let every country figure it out", "score": 60 },
+      { "text": "Stop selling to tough markets", "score": 10 }
+    ]
+  },
+  {
+    "category": "VUCA Classification",
+    "question": "A government suddenly bans one of your core products overnight. This is an example of:",
+    "options": [
+      { "text": "Volatility", "score": 200 },
+      { "text": "Ambiguity", "score": 60 },
+      { "text": "Complexity", "score": 80 }
+    ]
+  },
+  {
+    "category": "Leadership Scenario",
+    "question": "You discover 3 different teams solved the same problem separately. What do you do?",
+    "options": [
+      { "text": "Create shared knowledge platforms immediately", "score": 180 },
+      { "text": "Let it go, not your responsibility", "score": 30 },
+      { "text": "Blame project managers", "score": -10 }
+    ]
+  },
+  {
+    "category": "Ambiguity",
+    "question": "You're offered a partnership in a new market you don’t understand. How do you respond?",
+    "options": [
+      { "text": "Start with a limited-scope trial", "score": 200 },
+      { "text": "Decline to avoid uncertainty", "score": 40 },
+      { "text": "Accept fully without any checks", "score": -20 }
+    ]
+  },
+  {
+    "category": "Reflection",
+    "question": "Which trait is most important in a VUCA world?",
+    "options": [
+      { "text": "Adaptability", "score": 200 },
+      { "text": "Certainty", "score": 20 },
+      { "text": "Control", "score": 10 }
+    ]
+  }
+]
